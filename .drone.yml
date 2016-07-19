@@ -1,4 +1,4 @@
 build:
-  image: dockerfile/nginx
+  image: nginx
   commands:
     - echo hello world
