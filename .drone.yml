@@ -1,5 +1,5 @@
 image: ubuntu
 script:
-    - sudo atp-get update
+    - sudo apt-get update
     - sudo apt-get install -y git
-    - echo hello world
+    - echo "hello world"
