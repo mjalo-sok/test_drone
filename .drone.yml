@@ -1,4 +1,6 @@
 build:
-  image: alpine
+  image: golang
   commands:
-    - echo Hello world123
+    - go get
+    - go build
+    - go test
