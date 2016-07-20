@@ -2,7 +2,4 @@ build:
   image: alpine
   commands:
     - echo "Will build branch - ${DRONE_BRANCH}"
-    - docker images
-    - gcloud docker
-    - docker pull eu.gcr.io/sok-bq-1/eu.gcr.io/sok-bq-1/sok-leadscore-sokos:production
-    - docker images
+    - gcloud
