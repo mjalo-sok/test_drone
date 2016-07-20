@@ -1,4 +1,4 @@
 build:
   image: alpine
   commands:
-    - echo test string is this one
+    - echo will build branch: $DRONE_BRANCH
